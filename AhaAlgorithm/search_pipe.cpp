@@ -7,14 +7,16 @@
         然后捋清楚这些情况。这里的管道一共分为6中，其中弯的管道有4种，直的有2种。在地图中用1-6表示在当前
         方块中管道的类型，其中有个方块上有个障碍物，需要绕开，用0表示。
      (3)用栈来记录具体路线；
-     (4)管道的具体情况还是有图更容易看，具体参看书中内容。
+     (4)这里的关键是要弄清楚在每个节点处怎么寻找接下来要的方向。根据入水口的方位决定当前节点处要用的管道
+        类型，然后用根据当前节点的管道类型决定下个节点的入水口方向。这也决定了saerch_pipe函数的参数。
+     (5)管道的具体情况还是有图更容易看，具体参看书中内容。
 */
 #include <iostream>
 #include "datas.hpp"
 
 using namespace std;
 
-// set gloabel variables
+// set gloabal variables
 // the map_pipe is defined in datas.hpp.
 // m = 5, n = 4
 int g_book[5][4];
