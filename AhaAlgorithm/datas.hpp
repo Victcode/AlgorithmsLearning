@@ -51,4 +51,10 @@ int v_be[5] = {2, 1, 4, 4, 3};
 int w_be[5] = {2, -3, 5, 2, 3};
 
 
+// Data for tree_heap
+int orig_data[14] = {99, 5, 36, 7, 22, 17, 46, 12, 2, 19, 25, 28, 1, 92};
+
+// Data for tree_disjoint_set
+int relat_data[9][2] = {{0, 1}, {2, 3}, {4, 1}, {3, 5}, {1, 5}, {5, 6}, {8, 6}, {0, 5}, {1, 3}};
+
 #endif
