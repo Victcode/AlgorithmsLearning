@@ -57,4 +57,7 @@ int orig_data[14] = {99, 5, 36, 7, 22, 17, 46, 12, 2, 19, 25, 28, 1, 92};
 // Data for tree_disjoint_set
 int relat_data[9][2] = {{0, 1}, {2, 3}, {4, 1}, {3, 5}, {1, 5}, {5, 6}, {8, 6}, {0, 5}, {1, 3}};
 
+// Data for sort
+int sort_data[10] = {12, 3, 5, 9, 1, 0, 10, 8, 4, 6};
+
 #endif
